@@ -1,9 +1,9 @@
-# Positioning and Floating Elements
-The main objective of this project  is to copy  article from the New York Times.In order to master the modern use of  Flexbox or Grid. 
-There are certain times where FlexBox and Grid can’t achieve the layout you want, knowing floats and other positioning techniques is 
-valuable practice.
-[New York Times](https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0)
+# Building-with-Backgrounds-and-Gradients
+This project consists of building a webpage using images as a background and adding gradients to elements. The goal is to make a clone of old an old version of the Apple website webpage.
 
-##Developers
-[Danilo Zagarcanin ](https://github.com/danilozag1992)
+You can find the original project specification at: [Apple](https://www.theodinproject.com/courses/html5-and-css3/lessons/building-with-backgrounds-and-gradients)
+[Apple](https://web.archive.org/web/20140301004610/http://www.apple.com/)
+
+##Developer
+
 [Adama Chubiyojo Desmond](https://github.com/kobiyoyo)
