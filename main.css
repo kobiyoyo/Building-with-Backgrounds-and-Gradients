@@ -1,0 +1,229 @@
+.hero {
+    height: 538px;
+    background-origin: border-box;
+    width: 100%;
+    background-image: url(images/hero.jpg);
+    background-repeat: no-repeat;
+    background-position: 0px -765px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding-left: 18%;
+    padding-right: 18%;
+
+
+}
+
+nav {
+    box-shadow: rgba(0, 0, 0, 0.3) 0 1px 2px;
+    position: absolute;
+    top: 100px;
+    left: 200px;
+}
+
+
+.logo {
+    background-image: url('images/apple_logo.png');
+    background-position: top;
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+
+    height: 25px;
+    width: 90px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 5px;
+    background: grey;
+    padding: 0px 10px 5px 0px;
+    height: 27px;
+    width: 900px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0 1px 2px;
+    background: linear-gradient(gray 0%, rgb(53, 52, 52) 50%, gray);
+
+}
+
+
+ul > li {
+
+    width: 10.8%;
+    border-left: 1px solid grey;
+    padding-top: 6px;
+    height: 25px;
+    text-align: center;
+
+
+
+
+}
+
+ul > li > a {
+    color: white;
+    text-shadow: 0 -1px 1px #333;
+    text-decoration: none;
+
+}
+
+ul > li:last-child {
+    width: 100px;
+    transition: width 0.5s;
+
+}
+
+ul > li:last-child:hover {
+    width: 200px;
+
+}
+
+
+
+ul > li > form > input {
+    border-radius: 19px;
+    border: none;
+    margin-left: 5px;
+    width: 100%;
+    padding-left: 23px;
+    color: white;
+    background: grey;
+    background-image: url(images/search.png);
+    background-position: 1px;
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+
+}
+
+
+
+
+
+
+
+
+
+
+header {
+    margin-top: 40px;
+    color: white;
+    text-align: center;
+}
+
+header > h1 {
+    font-size: 80px;
+
+}
+
+
+
+header > h3 {
+    font-size: 25px;
+    padding-top: 30px;
+
+
+
+}
+
+.playIconText > a {
+
+    font-size: 21px;
+    padding-top: 30px;
+    color: white;
+    text-decoration: none;
+
+}
+
+.playIconText > a:hover {
+
+    text-decoration: underline;
+
+}
+
+.playIconText {
+    margin-top: 34px;
+}
+
+.playImage {
+    background-image: url(images/play.png);
+    background-position: 641px;
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+}
+
+.content {
+    display: flex;
+}
+
+.content > div {
+    width: 318px;
+    padding-top: 3px;
+    padding-left: 3px;
+}
+
+.imgOne,
+.imgTwo,
+.imgThree,
+.imgFour {
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 210px;
+    width: 315px;
+}
+
+.imgOne {
+    background-image: url(images/2.jpg);
+
+}
+
+.imgTwo {
+    background-image: url(images/1.jpg);
+
+}
+
+.imgThree {
+    background-image: url(images/3.jpg);
+
+}
+
+.imgFour {
+    background-image: url(images/4.jpg);
+
+}
+
+footer {
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 30px;
+
+}
+
+footer > section:first-child {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+footer > section > div:first-child {
+    padding-right: 50px
+}
+
+footer p {
+    font-size: 13px;
+    color: dimgray;
+}
+
+footer a {
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.footerLinks > a {
+    border-right: 1px solid grey;
+    padding-right: 10px;
+    padding-left: 5px;
+}
