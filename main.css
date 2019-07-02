@@ -5,7 +5,6 @@
     background-image: url(images/hero.jpg);
     background-repeat: no-repeat;
     background-position: 0px -765px;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -30,7 +29,6 @@ nav {
     background-position: top;
     background-size: 25px 25px;
     background-repeat: no-repeat;
-
     height: 25px;
     width: 90px;
 }
@@ -95,26 +93,29 @@ ul > li > form > input {
     background-repeat: no-repeat;
 
 }
+
 .headOne,
-.headTwo{
-   
-       background-position: center;
+.headTwo {
+
+    background-position: center;
     background-repeat: no-repeat;
     height: 83px;
     width: 840px;
 }
-.headThree{
-background-position: -70px 0px;
+
+.headThree {
+    background-position: -70px 0px;
     background-repeat: no-repeat;
     height: 30px;
-        margin-top: 39px;
+    margin-top: 39px;
     width: 840px;
 }
-.headThree:hover{
-background-position: -70px -33px;
+
+.headThree:hover {
+    background-position: -70px -33px;
     background-repeat: no-repeat;
     height: 30px;
-        margin-top: 39px;
+    margin-top: 39px;
     width: 840px;
 }
 
@@ -182,7 +183,7 @@ header {
 }
 
 footer {
-  
+
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
@@ -195,13 +196,15 @@ footer > section:nth-child(2) {
     flex-direction: row;
     margin-bottom: 10px;
 }
-.center{
-	padding: 8px 10px;
+
+.center {
+    padding: 8px 10px;
     display: flex;
     justify-content: center;
 }
+
 footer > .footerMenu > div:first-child {
-    padding-right:50px
+    padding-right: 50px
 }
 
 footer p {
