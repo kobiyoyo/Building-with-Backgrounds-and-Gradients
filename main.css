@@ -95,14 +95,43 @@ ul > li > form > input {
     background-repeat: no-repeat;
 
 }
+.headOne,
+.headTwo{
+   
+       background-position: center;
+    background-repeat: no-repeat;
+    height: 83px;
+    width: 840px;
+}
+.headThree{
+background-position: -70px 0px;
+    background-repeat: no-repeat;
+    height: 30px;
+        margin-top: 39px;
+    width: 840px;
+}
+.headThree:hover{
+background-position: -70px -33px;
+    background-repeat: no-repeat;
+    height: 30px;
+        margin-top: 39px;
+    width: 840px;
+}
 
+.headOne {
+    background-image: url(images/12.png);
 
+}
 
+.headTwo {
+    background-image: url(images/13.png);
 
+}
 
+.headThree {
+    background-image: url(images/14.png);
 
-
-
+}
 
 
 header {
@@ -111,46 +140,6 @@ header {
     text-align: center;
 }
 
-header > h1 {
-    font-size: 80px;
-
-}
-
-
-
-header > h3 {
-    font-size: 25px;
-    padding-top: 30px;
-
-
-
-}
-
-.playIconText > a {
-
-    font-size: 21px;
-    padding-top: 30px;
-    color: white;
-    text-decoration: none;
-
-}
-
-.playIconText > a:hover {
-
-    text-decoration: underline;
-
-}
-
-.playIconText {
-    margin-top: 34px;
-}
-
-.playImage {
-    background-image: url(images/play.png);
-    background-position: 641px;
-    background-size: 25px 25px;
-    background-repeat: no-repeat;
-}
 
 .content {
     display: flex;
@@ -193,22 +182,26 @@ header > h3 {
 }
 
 footer {
-    height: 90px;
+  
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    padding: 30px;
+
 
 }
 
-footer > section:first-child {
+footer > section:nth-child(2) {
     display: flex;
     flex-direction: row;
     margin-bottom: 10px;
 }
-
-footer > section > div:first-child {
-    padding-right: 50px
+.center{
+	padding: 8px 10px;
+    display: flex;
+    justify-content: center;
+}
+footer > .footerMenu > div:first-child {
+    padding-right:50px
 }
 
 footer p {
