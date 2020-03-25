@@ -16,7 +16,7 @@ You can find the original project specification at: [Apple](https://www.theodinp
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/kobiyoyo/Images-video/master/index.html)
+[Live Demo Link](https://raw.githack.com/kobiyoyo/Building-with-Backgrounds-and-Gradients/master/index.html)
 
 ## Authors
 
