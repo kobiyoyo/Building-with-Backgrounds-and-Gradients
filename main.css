@@ -79,7 +79,7 @@ ul > li:last-child:hover {
 
 
 
-ul > li >input {
+ul > li > input {
    border-radius: 19px;
     border: none;
     margin-left: 5px;
