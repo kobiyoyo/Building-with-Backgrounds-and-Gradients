@@ -22,7 +22,10 @@ nav {
     top: 100px;
     left: 200px;
 }
-
+.search-input{
+    width: 92px;
+    border-radius:5px;
+}
 
 .logo {
     background-image: url('images/apple_logo.png');
